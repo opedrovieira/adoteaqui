@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    
+}   
+
+#pai {
+
+
+}
+
+.adotediv{
+    display: flex;
+    flex-direction: row;
+    background: rgb(14, 14, 14);
+    width: 50vw;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 217, 0);
+    width: 100vw;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+    border: none;
+    border-radius: 15px;
+}
+
+.adote {
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+}
+
+.adote:hover {
+    cursor: pointer;
+    color: rgb(255, 208, 8);
+    font-size: 20px;
+}
+
+.home, .sobre, .contato {
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(15, 15, 15);
+}
+
+.home:hover, .sobre:hover, .contato:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}    
+
+@media (max-width: 600px) {
+
+    .adotediv{
+        display: none;
+    }
+
+@media (max-width: 700px) {
+
+    .container{
+        flex-direction: column;
+    }
